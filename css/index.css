@@ -1,0 +1,313 @@
+.index.header{
+  background-color: purple !important;
+}
+.index .dropdown-item:hover{
+  background-color: rgb(31, 9, 125) !important;
+  color: white !important;
+}
+.navbar-brand{
+  width: 100px;
+}
+.navbar-brand img{
+  width: 100%;
+}
+.index li .one{
+  padding: 2px;
+  background-color: transparent;
+  /* border: 1px solid white; */
+}
+.index li .one:hover{
+  border: 2px solid white;
+}
+.index li .two{
+  background-color: white;
+}
+.index li .two:hover{
+  background-color: antiquewhite;
+}
+.index .hover:hover{
+text-decoration: underline;
+}
+.padding-left{
+  padding-left: 50px;
+}
+.fw-bolder.h1{
+  font-size: 90px;
+}
+.fw-bolder span{
+  color: orange;
+}
+.fw-bolder.p{
+  font-size: 30px;
+}
+.index .logos .row .col-md-2 img{
+  width: 100%;
+}
+.width{
+  width: 100px !important;
+}
+.flow-hide{
+  overflow-x: hidden !important;
+}
+.flow-hide video{
+  margin-left: 150px !important;
+}
+section{
+  background-color: rgb(248, 232, 248);
+}
+.brr video{
+  border-radius: 0 220px 220px 0 !important ;
+}
+.brl video{
+  border-radius: 220px 0 0 220px !important ;
+}
+.brl{
+  margin-left: auto;
+}
+.section h1{
+  font-size: 50px;
+}
+.section p{
+  font-weight: 500 !important;
+}
+.index .section a:hover{
+ text-decoration: underline;
+ transition-delay: 0.5s;
+}
+.index .section a{
+  text-decoration: none;
+}
+.fs h1{
+  font-size: 60px;
+}
+.fs p{
+  font-weight: 500;
+}
+.bg-purple{
+  background-color: purple;
+}
+.btn-outline-purple{
+  border: 3px solid purple;
+}
+.hover-btn-lg:hover{
+  background-color: rgb(78, 1, 78);
+}
+.hover-btn-sm:hover{
+  border: 3px solid rgb(65, 3, 65);
+}
+.hero-section-percent{
+  width: 300px;
+}
+.hero-section-percent h1{
+  font-size:90px;
+}
+.hero-section-percent p{
+  font-weight: 500;
+}
+.smm{
+  font-size: 15px;
+}
+.card-sets{
+  background-color: rgb(248, 232, 248);
+}
+.welcome-page{
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(72, 2, 72);
+  /* border-radius: 0 0 300px 300px; */
+  clip-path: ellipse(60% 100% at center top);
+}
+.welcome-page h1{
+  font-size: 65px !important;
+}
+.grey:hover{
+  background-color: rgb(219, 211, 211);
+}
+.deeppurple:hover{
+border: 2px solid rgb(248, 232, 248);
+}
+.links a{
+  color: black;
+  text-decoration: none;
+}
+.links a:hover{
+  color: rgb(138, 79, 180);
+}
+.footer-links-mobile{
+  display: none;
+}
+.accordion{
+  background-color: white !important;
+}
+.transparent{
+  background-color: transparent !important;
+  border: none !important;
+}
+.transparent:hover{
+  transform: scale(1.05);
+}
+.padding{
+  padding: 0 100px !important;
+}
+.transparent .card-title{
+  min-height: 140px;
+}
+.transparent .footer{
+  min-height: 50px !important;
+}
+.transparent a{
+  text-decoration: none;
+}
+.footers{
+  padding: 0 70px !important;
+}
+.footer-link a{
+  text-decoration: none;
+  color: black;
+}
+.copy{
+  font-size: 15px !important;
+}
+.mobile{
+  display: none;
+}
+.hover-white:hover{
+background-color: rgb(243, 200, 243) !important;
+}
+.hover-blue:hover{
+  background-color: rgb(172, 18, 243) !important;
+}
+.footer-icon a{
+  text-decoration: none;
+}
+.footer-icon a:hover{
+  color: blue !important;
+}
+.footer-icon i:hover{
+  color: blue;
+}
+
+
+@media (max-width:1200px){
+.padding{
+  padding: 0 !important;
+}
+}
+
+@media (max-width:991px){
+  .row-reverse{
+    flex-direction: column-reverse;
+  }
+  .hero-section-percent{
+    width: 200px;
+  }
+  .footer-links-header p{
+    font-size: 20px !important;
+  }
+  .welcome-page h1{
+    font-size: 60px !important;
+  }
+  .welcome-page{
+  clip-path: ellipse(80% 100% at center top);
+  }
+  .padding{
+    padding: 0 100px !important;
+  }
+ }
+
+
+@media (max-width:768px){
+  
+.padding-left{
+  padding: 0 !important;
+}
+.flow-hide video{
+  margin: 0 !important;
+}
+.fw-bolder.h1{
+  font-size: 65px;
+}
+.fw-bolder.p{
+  font-size: 20px;
+}
+.d-row{
+  flex-direction: column;
+}
+.hero-section-percent{
+  margin: 0 !important;
+}
+.welcome-page h1{
+  font-size: 50px !important;
+}
+.welcome-page{
+  clip-path: ellipse(85% 100% at center top);
+  }
+  .padding{
+    padding: 0 100px !important;
+  }
+  .footers{
+    padding: 10px !important;
+  }
+  .footer-link{
+    flex-direction: column;
+  }
+  .footer-items{
+    flex-direction: column;
+    align-items: flex-start !important;
+    padding: 0 20px !important;
+  }
+ 
+}
+
+
+@media (max-width:576px){
+  
+  .relative button{
+    padding: 0!important;
+  }
+  .fw-bolder.h1, .fw-bolder.p{
+    text-align: center;
+  }
+  .section p{
+    padding: 0;
+  }
+  .fw-bolder.h1{
+    font-size: 45px;
+  }
+  .index .section{
+    padding: 10px !important;
+  }
+  .index .section h1{
+    padding: 0 !important;
+  }
+  .index .section p{
+    padding: 0 !important;
+  }
+  .index .section a{
+    padding: 0 !important;
+  }
+.section h1{
+  font-size: 30px;
+}
+.footer-links{
+  display: none;
+}
+.footer-links-mobile{
+  display: block;
+}
+.welcome-page{
+  clip-path: ellipse(90% 100% at center top);
+  }
+.welcome-page h1{
+  font-size: 35px !important;
+}
+.welcome-page button{
+  padding: 5px 5px !important;
+}
+.mobile {
+  display: block;
+}
+.card-set{
+  display: none;
+}
+}
